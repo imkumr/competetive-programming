@@ -1,15 +1,8 @@
-package ArrayProblems;
+package array.src.main;
 
 class ReverseArray {
     public static void main(String[] args) {
-        int arr[] = { 4, 1, 0, 3, 10 };
-
-        // System.out.println(getArrayReversed(arr));
-
-        /*for (int i : getArrayReversed(arr, 0, arr.length - 1)) {
-            System.out.print(i + " ");
-        }*/
-
+        int[] arr = { 4, 1, 0, 3, 10 };
         getArrayRevByRecursion(arr, 0, arr.length - 1);
 
         for (int i : arr) {
@@ -17,13 +10,8 @@ class ReverseArray {
         }
     }
 
-    public static int[] getArrayReversed(int arr[], int start, int end) {
-        // int tempArr[] = new int[arr.length];
-        // int j = 0;
-        // for (int i = arr.length - 1; i >= 0; i--) {
-        // tempArr[j] = arr[i];
-        // j++;
-        // }
+    public static int[] getArrayReversed(int[] arr, int start, int end) {
+
         int temp;
         while (start < end) {
             temp = arr[start];
@@ -39,9 +27,9 @@ class ReverseArray {
     public static void getArrayRevByRecursion(int arr[], int start, int end) {
         int temp;
 
-        if(start >= end)
+        if (start >= end)
             return;
-        
+
         temp = arr[start];
         arr[start] = arr[end];
         arr[end] = temp;
