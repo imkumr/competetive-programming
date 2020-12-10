@@ -9,6 +9,6 @@ The questions that I have solved here was found on the YouTube channel - Love Ba
 - [ ] 5. [Move all the negative elements to one side of the array.](https://www.geeksforgeeks.org/move-negative-numbers-beginning-positive-end-constant-extra-space/)
 - [ ] 6. [Find the Union and Intersection of the two sorted arrays.](https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0)
 - [ ] 7. [Write a program to cyclically rotate an array by one.](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one/0)
-- [ ] 8. [find Largest sum contiguous Subarray](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) :fire:
+- [ ] 8. [Find Largest sum contiguous Subarray](https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) :fire:
 - [ ] 9. [Minimise the maximum difference between heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1) :fire:
 - [ ] 10. [Minimum no. of Jumps to reach end of an array](https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0)
