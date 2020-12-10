@@ -1,7 +1,4 @@
-package array.src.main;
-
 //Find the maximum and minimum element in an array using minimum number of comparisons
-
 public class MaxMinOfArray {
     public static void main(String[] args) {
         int[] arr = { 2, 9, 6, 3, 1 };

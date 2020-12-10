@@ -1,5 +1,3 @@
-package array.src.main;
-
 import java.util.Arrays;
 
 /*  Given an array arr[] and a number K where K is smaller than size of array, 
@@ -17,11 +15,12 @@ public class KthMaxMinOfArray {
     }
 
     public int getKthMaxNmin(int[] arr, int k) {
-        if (arr.length == 0)
-            return -1;
 
-        Arrays.sort(arr);
-        return arr[k];
+        if (arr.length > 0 && k <= arr.length) {
+            Arrays.sort(arr);
+            return arr[k - 1];
+        } else
+            return 0;
     }
 
 }
