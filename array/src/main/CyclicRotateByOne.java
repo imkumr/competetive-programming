@@ -18,21 +18,19 @@ public class CyclicRotateByOne {
     }
 
     public static void getCyclicArrayRotation(int[] arr, int arrSize) {
-
-        // int temp = 0;
         int last = arr[arrSize - 1];
 
         for (int i = arrSize - 1; i > 0; i--) {
             arr[i] = arr[i - 1];
         }
+
         arr[0] = last;
 
         System.out.println("Array after rotation is :");
 
-        for(int i : arr){
+        for (int i : arr) {
             System.out.println(i + " ");
         }
-
     }
 
 }
