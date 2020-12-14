@@ -23,7 +23,6 @@ public class CyclicRotateByOne {
         for (int i = arrSize - 1; i > 0; i--) {
             arr[i] = arr[i - 1];
         }
-
         arr[0] = last;
 
         System.out.println("Array after rotation is :");
