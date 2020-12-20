@@ -27,7 +27,9 @@ public class MinimiseHeights {
 
         int k = 2;
 
-        minimiseHeight.getMinimumHeight(arr, arr.length, k);
+        int minHeight = minimiseHeight.getMinimumHeight(arr, arr.length, k);
+
+        System.out.println("Minimised height is: " + minHeight);
 
     }
 
